@@ -2,15 +2,11 @@
 
 A simple static personal site for posts and notes.
 
+Frameworkless and Markdown-based. LLMs handle the file wrangling.
+
 ## Local Preview
 
-Open `index.html` in a browser, or serve the folder with any static file server:
-
-```sh
-python3 -m http.server 8000
-```
-
-Then visit `http://localhost:8000`.
+Open `index.html` in a browser, or serve the folder with any static file server.
 
 ## Writing A Post
 
