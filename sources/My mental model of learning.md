@@ -13,7 +13,7 @@ Here’s another anecdote. My PhD thesis advisor once told me that I was spendin
 
 Let’s **assume** my advisor was right. How is it possible to push the knowledge boundary forward without first reaching it? My working hypothesis is that knowledge doesn't simply give you new options. It also eliminates some of them. More precisely, knowledge constrains the distribution of ideas we are likely to produce.
 
-![[26-05-knowledge-collapse.svg]]
+![Knowledge collapse](../assets/26-05-knowledge-collapse.svg)
 
 When trying to solve a problem, there's a distribution of ideas or solutions that we can come up with. In the figure, that distribution is represented by the blue blob. Some of those ideas will produce good solutions, represented in green. A much smaller subset are the optimal solutions, represented in red. To make the figure cleaner, all the blobs are drawn in similar sizes. But the probability of a good idea is much smaller than the probability of a bad one. And the probability of an optimal idea is just a drop in the bucket. You can see this whenever you write. There are countless sentences you could put next, many that would be grammatical, fewer that would be good, and very few that would say exactly what you mean.
 
@@ -23,7 +23,7 @@ When we learn a skill or a way to solve problems, that knowledge biases us towar
 
 Some people do learn almost everything in a field and still produce interesting research, often in the form of generalized theories. To make sense of this, I need one more oversimplification. 
 
-![[26-05-generalization.svg]]
+![Generalization](../assets/26-05-generalization.svg)
 
 Consider a researcher who knows of two different approaches to solving a problem. These could be known methods from the same field, or ideas borrowed from different fields. In the figure, these methods are represented as two separate constraints. The researcher can draw solutions from either one. But after thinking about them and understanding the commonalities, they may be able to produce a single framework that covers both cases. The larger dashed blob in the figure is this generalization. It contains the ideas in the two constrained spaces, but it is not limited to them. It also lets the researcher try things in between, and sometimes extrapolate to new approaches. Abstracting the two methods relaxed their mental constraints and increased the range of accessible ideas. Maybe this higher level of thought can help them find better solutions than those previously known.
 
