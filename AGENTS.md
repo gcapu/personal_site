@@ -16,6 +16,10 @@ step unless the project direction changes.
 - It is acceptable for Markdown syntax to become HTML formatting, such as
   `**bold**` to `<strong>`, backticks to `<code>`, and Markdown links to
   `<a>`, but the visible text must remain unchanged.
+- Use short post filenames, such as `on_learning.html`, so public links stay
+  concise.
+- Prefix post asset filenames with the short post date in `YY-MM` format, such
+  as `26-05-knowledge-collapse.svg`.
 
 ## Design Preferences
 
@@ -28,6 +32,7 @@ step unless the project direction changes.
 ## Git And Workflow
 
 - Keep commits small and focused.
+- Do not create commits unless explicitly requested.
 - Do not modify unrelated content.
 - Before committing post conversions, run a paragraph-by-paragraph text check
   between `sources/` and `posts/`.

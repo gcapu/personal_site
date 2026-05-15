@@ -14,8 +14,19 @@ Then visit `http://localhost:8000`.
 
 ## Writing A Post
 
-1. Add a new HTML file in `posts/`.
-2. Link it from the `Latest` section in `index.html`.
-3. Commit the change.
+1. Put the source Markdown and any images in `sources/`.
+2. Ask the LLM to process the Markdown file into a static HTML post.
+3. Check the diff, then commit it yourself.
 
-There is no JavaScript, package manager, or build step.
+Suggested prompt:
+
+```txt
+Process the new Markdown file in sources/ into a static HTML post in posts/.
+Preserve the source text exactly. Do not edit files in sources/ unless I ask.
+Copy any images needed by the post into assets/ with short, descriptive names.
+Update index.html so Latest points to the new post.
+Compare the Markdown source and HTML output paragraph by paragraph before you finish.
+Do not commit the changes.
+```
+
+There is no JavaScript, package manager, or build step. LLM is all you need.
