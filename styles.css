@@ -140,8 +140,8 @@ h2 {
 
 h3 {
   margin-bottom: 0.4rem;
-  font-size: 1.45rem;
-  line-height: 1.15;
+  font-size: 1.25rem;
+  line-height: 1.25;
 }
 
 p {
@@ -159,12 +159,12 @@ p {
 }
 
 .paper {
-  padding: 1.15rem 0;
+  padding: 1rem 0;
   border-top: 1px solid var(--line);
 }
 
 .work-item {
-  padding-top: 1.15rem;
+  padding-top: 1rem;
   border-top: 1px solid var(--line);
 }
 
@@ -179,19 +179,18 @@ p {
 .work-metrics {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.4rem;
   margin: 0.75rem 0 0;
   padding: 0;
   list-style: none;
 }
 
 .work-metrics li {
-  padding: 0.45rem 0.65rem;
+  padding: 0.35rem 0;
   border: 1px solid var(--line);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.45);
+  border-width: 0 0 1px;
   color: var(--text);
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   line-height: 1.2;
 }
 
@@ -200,7 +199,7 @@ p {
 }
 
 .paper h3 {
-  max-width: 30ch;
+  max-width: 38ch;
 }
 
 .paper-heading {
@@ -220,8 +219,8 @@ p {
   height: 2rem;
   border: 1px solid var(--line);
   border-radius: 999px;
-  color: var(--text);
-  font-size: 1rem;
+  color: var(--muted);
+  font-size: 0.95rem;
   line-height: 1.9rem;
   text-align: center;
   text-decoration: none;
@@ -230,6 +229,16 @@ p {
 .paper-link:hover {
   border-color: var(--accent);
   color: var(--accent-dark);
+}
+
+.paper h3 a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.paper h3 a:hover {
+  color: var(--accent-dark);
+  text-decoration: underline;
 }
 
 .paper p {
