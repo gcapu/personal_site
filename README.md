@@ -24,4 +24,4 @@ Update index.html so Latest points to the new post.
 Compare the Markdown source and HTML output paragraph by paragraph before you finish.
 ```
 
-There is no JavaScript, package manager, or build step. LLM is all you need.
+LLMs are all you need.
