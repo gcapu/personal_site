@@ -157,6 +157,33 @@ p {
   border-top: 1px solid var(--line);
 }
 
+.only-post-note {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.35rem;
+  width: fit-content;
+  margin: 1.6rem 0 0 2.5rem;
+  color: var(--muted);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.88rem;
+  transform: rotate(-4deg);
+}
+
+.only-post-note svg {
+  width: 6rem;
+  height: 5rem;
+  margin-top: -2.75rem;
+  overflow: visible;
+}
+
+.only-post-note path {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+}
+
 .highlight-item {
   padding-top: 1rem;
   border-top: 1px solid var(--line);
